@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <link href="dist/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-50 w-full">
+  <div class="  bg-blue-950 p-1  ">
+    <header class=" container mx-auto  ">
+      <div class="  text-xs space-x-2  text-start mt-3 lg:-mr-2 ">
+        <a href="#" class=" ml-3 mr-3 text-white hover:bg-slate-500 border rounded-full w-10 p-1">MyQU </a>
+        <a href="#" class=" text-white hover:text-slate-500"> معلومات </a>
+        <a href="#" class=" text-white  hover:text-slate-500"> التقويم </a>
+        <a href="#" class=" text-white  hover:text-slate-500"> الاخبار </a>
+      </div>
+
+      <div class=" text-xs text-slate-50 flex justify-end ml-7 -mt-5 ">
+        <div class="border rounded-full p-1.5 h-7 w-7 ml-3  hover:bg-slate-500 ">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="border rounded-full p-1.5 h-7 w-7  hover:bg-slate-500">EN</div>
+
+      </div>
+
+    </header>
+  </div>
+
+
+  <nav class="container mx-auto py-5 ">
+    <div class=" grid grid-cols-8 space-x-2 text-xs  ">
+
+      <a class="col-span-2 mx-auto mt-4 w-1/2 " href="https://qu.edu.sa">
+        <img class=" -mt-2 h-10" src="https://data.qu.edu.sa/img/qu_logo.svg" alt="logo">
+      </a>
+
+      <a href="#" class=" pt-6 text-blue-950 hover:text-slate-500 ">الجامعة </a>
+      <a href="#" class="pt-6 text-blue-950 hover:text-slate-500"> الكليات </a>
+      <a href="#" class=" pt-6 text-blue-950 hover:text-slate-500"> القبول </a>
+      <a href="#" class=" pt-6 text-blue-950 hover:text-slate-500"> الابحاث </a>
+      <a href="#" class=" col-span-2 pt-6  text-blue-950 hover:text-slate-500"> الحياة الجامعية </a>
+
+    </div>
+  </nav>
+  <section id="sersh">
+    <div class="bg-sky-700  h-52  flex flex-col items-center ">
+      <h1 class="   text-center font-bold pt-20 text-white ">
+        ابحث عن البينات </h1>
+
+      <input type="text" id="text" name="text" placeholder="بحث "
+        class="text-white bg-blue-950 bg-opacity-70 placeholder-white placeholder-opacity-40   mt-4  py-3 px-10 border-white ring-1 ring-white ring-opacity-80 focus:ring-2 focus:ring-white focus:ring-opacity-70 focus:border-white border-0 block w-96 h-9 sm:text-sm ">
+      <div class="text-slate-50   text-lg -mt-8 mr-80  ">
+        <i class="fa-solid fa-magnifying-glass"></i> <!--Icon-->
+      </div>
+    </div>
+    
+    <!-- <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+          <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+          </svg> -->
+
+
+
+
+
+  </section>
+  <sectionn id="info">
+    <div class="container  mt-14 mx-auto">
+      <div class=" grid grid-cols-4 border  gap-4 mx-8 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 xl:mx-44  ">
+
+
+        <!-- 1 -->
+        <div
+          class=" bg-sky-700 hover:bg-slate-300 col-span-2  xl:col-span-1 lg:col-span-1 md:col-span-1 lg:border-l-2 ">
+
+          <div class=" text-white text-xl h-7 w-7 md:text-xl  lg:text-2xl ">
+            <i class="fa-solid fa-file mt-5 mr-5  md:mt-6 md:mr-4 lg:mt-5  lg:mr-6"></i> <!--Icon-->
+          </div>
+          <div class=" -mt-6 py-4   md:pr-4">
+            <p class=" text-center text-xs text-white md:mt-1  "> عن البيانات المفتوحة</p>
+
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="  hover:bg-slate-300 col-span-2  xl:col-span-1 lg:col-span-1 md:col-span-1 lg:border-l-2 md:border-l-2">
+          <div class="  text-yellow-200 text-xl h-7 w-7 md:text-lg md:-mr-3  lg:text-2xl ">
+            <i class="fa-solid fa-book mt-5 mr-5  md:mt-6 md:mr-4 lg:mt-5  lg:mr-6"></i> <!--Icon-->
+          </div>
+          <div class=" -mt-6 py-4   md:pr-4">
+            <p class=" text-center text-xs font-bold  text-blue-950 "> مكتبة البيانات المفتوحة</p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div
+          class="  hover:bg-slate-300 col-span-2  xl:col-span-1 lg:col-span-1 md:col-span-1 lg:border-l-2 md:border-l-2">
+          <div class="  text-red-400 text-m h-7 w-7 md:text-md  lg:text-xl md:-mr-2 ">
+            <i class="fa-solid fa-warehouse mt-5 mr-5  md:mt-6 md:mr-4 lg:mt-5  lg:mr-6"></i> <!--Icon-->
+          </div>
+          <div class=" -mt-6 py-4 mr-3  md:pr-4">
+            <p class=" text-center text-xs font-bold  text-blue-950 "> سـيـاسـة البيانات المفتوحة</p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="  hover:bg-slate-300 col-span-2  xl:col-span-1 lg:col-span-1 md:col-span-1 md:border-l-2">
+          <div class="  text-green-200  text-xl h-7 w-7 md:text-xl  lg:text-2xl   ">
+            <i class="fa-solid fa-folder mt-5 mr-5  md:mt-6 md:mr-4 lg:mt-5  lg:mr-6"></i> <!--Icon-->
+          </div>
+          <div class=" -mt-6 py-4   md:pr-4">
+            <p class="text-center text-xs font-bold  text-blue-950"> ارشادات الاستخدام</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </sectionn>
+
+
+  <div class="container  mt-16  mx-auto   mb-96">
+    <div class="border-b border bg-white  mr-11 ml-11 mx-auto  px-24 py-14 ">
+
+      <h4 class=" text-m  font-bold my-5 text-blue-950 ">
+        عن البيانات المفتوحة
+      </h4>
+      <p class="   font-light mb-8 ">
+        البيانات المفتوحة متاحة لجميع مستخدمي البوابة الإلكترونية
+        لجامعة القصيم ، وهي تهدف إلى تعزيز المشاركة المجتمعية ورفع
+        مستوى نشر المعرفة وعلى زائري البوابة والمستفيدين من خدماتها
+        الاطلاع على سياسة استخدام تلك البيانات لمعرفة أي تحديثات يتم
+        عليها.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  </section>
+  <footer class="bg-blue-950 ">
+    <div class="mx-auto max-w-screen-2xl space-y-8 px-4 py-36 sm:px-6 lg:space-y-48 lg:px-8">
+    </div>
+  </footer>
+</body>
+
+</html>
