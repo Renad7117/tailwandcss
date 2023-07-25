@@ -9,6 +9,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="re.js"></script> -->
+    <!-- <script>
+      let btn = document.querySelector("button");
+let div = document.getElementById("re");
+btn.addEventListener("click", () => {
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+});
+    </script> -->
 </head>
 
 <body class="bg-gray-50 w-full">
@@ -76,7 +88,8 @@
 
 
         <!-- 1 -->
-        <div
+        
+        <div id="usersSection"
           class=" bg-sky-700 hover:bg-slate-300 col-span-2  xl:col-span-1 lg:col-span-1 md:col-span-1 lg:border-l-2 ">
 
           <div class=" text-white text-xl h-7 w-7 md:text-xl  lg:text-2xl ">
@@ -84,9 +97,9 @@
           </div>
           <div class=" -mt-6 py-4   md:pr-4">
             <p class=" text-center text-xs text-white md:mt-1  "> عن البيانات المفتوحة</p>
-
           </div>
-        </div>
+          </div>
+       
         <!-- 2 -->
         <div
           class="  hover:bg-slate-300 col-span-2  xl:col-span-1 lg:col-span-1 md:col-span-1 lg:border-l-2 md:border-l-2">
@@ -121,8 +134,8 @@
     </div>
   </sectionn>
 
-
-  <div class="container  mt-16  mx-auto   mb-96">
+  <div id="showhideUsers">
+  <div class="container  mt-16  mx-auto   mb-96 ">
     <div class="border-b border bg-white  mr-11 ml-11 mx-auto  px-24 py-14 ">
 
       <h4 class=" text-m  font-bold my-5 text-blue-950 ">
@@ -135,17 +148,45 @@
         الاطلاع على سياسة استخدام تلك البيانات لمعرفة أي تحديثات يتم
         عليها.
       </p>
-
+</div>
     </div>
 
   </div>
+ <!--
+ <script>
+  
+let usersSection = document.querySelector("usersSection");
+let isShow= true;
+function showhideUsers() {
+if (isShow) {
+  usersSection.style.display = "none";
+isShow =false;
+} else {
+usersSection.style.display = "block";
+isShow= true;
+}
+}
+  </script>
+  <script>
+    var div =document.getElementById('min')
+    var display = 0;
+    function hideSow(){
+     if (display == 1){
+       div.
+     }
 
+    }
+  </script>
 
   </section>
+  <button>Toggle</button>
+  <div id="re" class="h-52 w-56 bg-slate-500 mx-auto hidden" ></div>--> 
+  
   <footer class="bg-blue-950 ">
-    <div class="mx-auto max-w-screen-2xl space-y-8 px-4 py-36 sm:px-6 lg:space-y-48 lg:px-8">
+    <div  class="mx-auto max-w-screen-2xl space-y-8 px-4 py-36 sm:px-6 lg:space-y-48 lg:px-8">
     </div>
   </footer>
+  <script src="re.js"></script>
 </body>
 
 </html>
